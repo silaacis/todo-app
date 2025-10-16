@@ -1,59 +1,43 @@
-# ToDoApp
+📝 Todo App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
+Basit ve kullanışlı bir Todo uygulaması. Yapılacak işleri ekle, işaretle ve silebilirsin!
 
-## Development server
+✨ Özellikler
 
-To start a local development server, run:
+Yeni görev ekleme ✅
 
-```bash
-ng serve
-```
+Görevleri tamamlandı olarak işaretleme ✔️
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Görevleri silme ❌
 
-## Code scaffolding
+Basit ve hızlı kullanıcı arayüzü 🎨
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🚀 Kurulum
+1️⃣ Frontend
 
-```bash
-ng generate component component-name
-```
+Depoyu klonlayın:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+git clone https://github.com/silaacis/todo-app
 
-```bash
-ng generate --help
-```
 
-## Building
+Proje klasörüne girin:
 
-To build the project run:
+cd todo-app
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Bağımlılıkları yükleyin:
 
-## Running unit tests
+npm install
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
+Uygulamayı çalıştırın:
 
-## Running end-to-end tests
+npm start
 
-For end-to-end (e2e) testing, run:
+2️⃣ API (Backend)
 
-```bash
-ng e2e
-```
+Bu uygulama, görevleri yönetmek için kurs hocasının GitHub’ındaki Todo API’sini kullanır:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+API Repo: https://github.com/Fcakiroglu16/TodoAppPlayground
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+⚠️ Not: API çalışmazsa uygulama görevleri göstermez. API’yi çalıştırmak için hocanın talimatlarını takip edin.
