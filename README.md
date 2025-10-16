@@ -12,6 +12,7 @@ Görevleri silme ❌
 
 Basit ve hızlı kullanıcı arayüzü 🎨
 
+
 🚀 Kurulum
 1️⃣ Frontend
 
@@ -33,6 +34,7 @@ npm install
 Uygulamayı çalıştırın:
 
 npm start
+
 
 2️⃣ API (Backend)
 
