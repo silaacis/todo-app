@@ -73,7 +73,3 @@ Eğer uygulamayı açtığınızda:
 
 **Soru**: Tarayıcı yenilemesinde görevler kayboluyor?
 **Cevap**: Bu tamamen normal. Görevler API sunucusunda depolanıyor, yenilemenin ardından tekrar yüklenir.
-
----
-
-**Sorularınız mı var?** Hocanız veya sınıf arkadaşlarınızla iletişime geçin. Mutlu üretken olmanızı diliyorum! 🚀
