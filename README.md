@@ -1,51 +1,79 @@
 # 📝 Todo App
 
-Basit ve kullanışlı bir Todo uygulaması. Günlük görevlerinizi kolayca yönetebilirsiniz.
+Yapılacaklar listenizi dijital olarak yönetmek için tasarlanmış, basit ve etkili bir web uygulaması. Görevlerinizi hızlıca ekleyin, tamamladığınız işleri işaretleyin ve artık gerekli olmayan görevleri silin. Minimalist arayüzü sayesinde hiçbir karmaşıklık olmadan verimliliğinizi arttırın.
 
-## ✨ Özellikler
+## ✨ Temel Özellikler
 
-- ➕ Yeni görev ekleme
-- ✅ Görevleri tamamlandı olarak işaretleme
-- 🗑️ Görevleri silme
-- 🎨 Temiz ve kullanıcı dostu arayüz
+- ➕ **Yeni Görev Ekleme** - Hızlıca yapılacaklar listesine yeni görevler ekleyin
+- ✅ **Görev Tamamlama** - Bitirdiğiniz görevleri işaretleyerek ilerlemenizi takip edin
+- 🗑️ **Görev Silme** - Artık ihtiyaç duymadığınız görevleri kolayca kaldırın
+- 🎨 **Temiz Tasarım** - Dikkat dağıtıcı öğeler olmadan sadece gerekli bilgiler
+- ⚡ **Hızlı Performans** - Anında yanıt veren ve sorunsuz çalışan arayüz
 
-## 🛠️ Teknoloji
+## 🛠️ Teknoloji Stack'i
 
-- **Frontend**: TypeScript, HTML, CSS
-- **Backend API**: Todo API (Fcakiroglu16/TodoAppPlayground)
+Bu proje modern web teknolojileri ile geliştirilmiştir:
 
-## 🚀 Hızlı Başlangıç
+- **Frontend**: TypeScript (%69) - Tip güvenliği ile daha güvenilir kod
+- **Markup**: HTML (%30) - Temiz ve anlamsal sayfa yapısı
+- **Stil**: CSS (%1) - Minimal ama etkili tasarım
+- **Backend**: External Todo API - Görevleri güvenli şekilde depolama ve yönetme
+
+## 🚀 Başlangıç Rehberi
 
 ### Gereksinimler
-- Node.js (v14+)
-- npm
 
-### Kurulum
+Başlamadan önce bilgisayarınızda yüklü olması gerekenler:
+- **Node.js** (v14 ve üzeri)
+- **npm** (Node Package Manager - genellikle Node.js ile birlikte gelir)
+
+### Adım Adım Kurulum
 
 ```bash
-# Projeyi klonla
+# 1. Projeyi bilgisayarınıza indirin
 git clone https://github.com/silaacis/todo-app
 
-# Klasöre gir
+# 2. Proje klasörüne girin
 cd todo-app
 
-# Bağımlılıkları yükle
+# 3. Gerekli kütüphaneleri yükleyin
 npm install
 
-# Uygulamayı başlat
+# 4. Uygulamayı başlatın
 npm start
 ```
 
-Uygulama http://localhost:3000 adresinde açılacaktır.
+Kurulum tamamlandıktan sonra otomatik olarak **http://localhost:3000** adresinde tarayıcınız açılacak ve uygulamayı kullanmaya başlayabilirsiniz.
 
-## ⚙️ API Ayarı
+## ⚙️ Backend API Kurulumu
 
-Uygulamayı çalıştırmadan önce backend API'sini başlatmanız gerekir:
+Bu uygulama, görevleri sunucu tarafında depolamak için harici bir API'ye bağlıdır. API olmadan uygulama çalışacak ama görevleriniz kaydedilmeyecektir.
 
-📍 **API Deposu**: [Fcakiroglu16/TodoAppPlayground](https://github.com/Fcakiroglu16/TodoAppPlayground)
+### API'yi Kurma Adımları
 
-Kurulum talimatları için hocanın deposunu ziyaret edin.
+1. **Depoyu klonlayın**: [Fcakiroglu16/TodoAppPlayground](https://github.com/Fcakiroglu16/TodoAppPlayground)
+2. **Hocasının talimatlarını takip edin** - İlgili depoda kurulum adımları bulunmaktadır
+3. **API'yi çalıştırın** - Genellikle `npm start` veya benzer bir komut ile başlatılır
+
+### API Bağlantısı Kontrol
+
+Eğer uygulamayı açtığınızda:
+- ✅ Görevleri görebiliyorsanız → API doğru şekilde çalışıyor
+- ❌ Görev ekleyemiyorsanız veya hata alıyorsanız → API'yi kontrol edin
 
 ---
 
-💡 **İpucu**: API çalışmıyorsa görevler ekranda görünmeyecektir.
+## 💡 İpuçları ve Sorun Giderme
+
+**Soru**: Uygulamayı başlattığım halde görevler boş gözüküyor?
+**Cevap**: Muhtemelen API çalışmıyor veya henüz başlamadı. Hocanın deposundaki API'yi başlatın.
+
+**Soru**: Yeni görev ekleyemiyorum?
+**Cevap**: Tarayıcınızın geliştirici konsolu (F12) açın ve hata mesajını kontrol edin. Genellikle API bağlantı problemidir.
+
+**Soru**: Tarayıcı yenilemesinde görevler kayboluyor?
+**Cevap**: Bu tamamen normal. Görevler API sunucusunda depolanıyor, yenilemenin ardından tekrar yüklenir.
+
+---
+
+**Sorularınız mı var?** Hocanız veya sınıf arkadaşlarınızla iletişime geçin. Mutlu üretken olmanızı diliyorum! 🚀
