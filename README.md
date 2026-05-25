@@ -1,45 +1,51 @@
-📝 Todo App
+# 📝 Todo App
 
-Basit ve kullanışlı bir Todo uygulaması. Yapılacak işleri ekle, işaretle ve silebilirsin!
+Basit ve kullanışlı bir Todo uygulaması. Günlük görevlerinizi kolayca yönetebilirsiniz.
 
-✨ Özellikler
+## ✨ Özellikler
 
-Yeni görev ekleme ✅
+- ➕ Yeni görev ekleme
+- ✅ Görevleri tamamlandı olarak işaretleme
+- 🗑️ Görevleri silme
+- 🎨 Temiz ve kullanıcı dostu arayüz
 
-Görevleri tamamlandı olarak işaretleme ✔️
+## 🛠️ Teknoloji
 
-Görevleri silme ❌
+- **Frontend**: TypeScript, HTML, CSS
+- **Backend API**: Todo API (Fcakiroglu16/TodoAppPlayground)
 
-Basit ve hızlı kullanıcı arayüzü 🎨
+## 🚀 Hızlı Başlangıç
 
+### Gereksinimler
+- Node.js (v14+)
+- npm
 
-🚀 Kurulum
-1️⃣ Frontend
+### Kurulum
 
-Depoyu klonlayın:
-
+```bash
+# Projeyi klonla
 git clone https://github.com/silaacis/todo-app
 
-
-Proje klasörüne girin:
-
+# Klasöre gir
 cd todo-app
 
-
-Bağımlılıkları yükleyin:
-
+# Bağımlılıkları yükle
 npm install
 
-
-Uygulamayı çalıştırın:
-
+# Uygulamayı başlat
 npm start
+```
 
+Uygulama http://localhost:3000 adresinde açılacaktır.
 
-2️⃣ API (Backend)
+## ⚙️ API Ayarı
 
-Bu uygulama, görevleri yönetmek için kurs hocasının GitHub’ındaki Todo API’sini kullanır:
+Uygulamayı çalıştırmadan önce backend API'sini başlatmanız gerekir:
 
-API Repo: https://github.com/Fcakiroglu16/TodoAppPlayground
+📍 **API Deposu**: [Fcakiroglu16/TodoAppPlayground](https://github.com/Fcakiroglu16/TodoAppPlayground)
 
-⚠️ Not: API çalışmazsa uygulama görevleri göstermez. API’yi çalıştırmak için hocanın talimatlarını takip edin.
+Kurulum talimatları için hocanın deposunu ziyaret edin.
+
+---
+
+💡 **İpucu**: API çalışmıyorsa görevler ekranda görünmeyecektir.
